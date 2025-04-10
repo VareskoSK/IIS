@@ -1,0 +1,13 @@
+Driven_kms
+Age_of_car
+Driven_kms^2
+Driven_kms Age_of_car
+Age_of_car^2
+Car_depreciation_0.0
+Car_depreciation_1.0
+Car_depreciation_2.0
+Car_depreciation_3.0
+Owner_0.0
+Fuel_Type
+Selling_type
+Transmission

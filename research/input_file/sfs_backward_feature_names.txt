@@ -1,0 +1,5 @@
+Age_of_car^2
+Car_depreciation_0.0
+Car_depreciation_1.0
+Car_depreciation_2.0
+Selling_type

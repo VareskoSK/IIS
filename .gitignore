@@ -2,4 +2,6 @@
 *.pkl
 .venv*/
 *.DS_Store
-
+mlflow/mlruns/
+mlflow/mlflow.db
+research/mlruns/

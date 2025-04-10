@@ -1,0 +1,45 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.16.0
+model_size_bytes: 769260
+model_uuid: 2c45980e30c54a15978a23972218f44f
+run_id: cab059e767df4e13a49baae66fcacdad
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Fuel_Type", "required": true}, {"type": "double",
+    "name": "Selling_type", "required": true}, {"type": "double", "name": "Transmission",
+    "required": true}, {"type": "double", "name": "Driven_kms", "required": true},
+    {"type": "double", "name": "Owner", "required": true}, {"type": "double", "name":
+    "Age_of_car", "required": true}, {"type": "double", "name": "Car_depreciation",
+    "required": true}, {"type": "double", "name": "log(Car_depreciation)/Age_of_car",
+    "required": true}, {"type": "double", "name": "log(Car_depreciation)/Car_depreciation",
+    "required": true}, {"type": "double", "name": "Car_depreciation*Selling_type",
+    "required": true}, {"type": "double", "name": "Transmission/Car_depreciation",
+    "required": true}, {"type": "double", "name": "sqrt(Driven_kms)/Car_depreciation",
+    "required": true}, {"type": "double", "name": "Age_of_car**2*Fuel_Type**3", "required":
+    true}, {"type": "double", "name": "sqrt(Owner)*Selling_type", "required": true},
+    {"type": "double", "name": "Car_depreciation**3", "required": true}, {"type":
+    "double", "name": "sqrt(Driven_kms)*Selling_type", "required": true}, {"type":
+    "double", "name": "sqrt(Driven_kms)*Transmission", "required": true}, {"type":
+    "double", "name": "Car_depreciation**2*Fuel_Type**3", "required": true}, {"type":
+    "double", "name": "Selling_type*log(Car_depreciation)", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-04-10 20:10:27.912912'

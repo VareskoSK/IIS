@@ -1,0 +1,6 @@
+Age_of_car
+Car_depreciation_2.0
+Car_depreciation_3.0
+Fuel_Type
+Selling_type
+Transmission

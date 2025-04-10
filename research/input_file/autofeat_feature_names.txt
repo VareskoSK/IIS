@@ -1,0 +1,17 @@
+Fuel_Type
+Selling_type
+Transmission
+Driven_kms
+Owner
+Age_of_car
+Car_depreciation
+Age_of_car**3/Car_depreciation
+log(Car_depreciation)/Age_of_car
+log(Car_depreciation)/Car_depreciation
+Transmission/Driven_kms
+sqrt(Driven_kms)*Fuel_Type**3
+sqrt(Driven_kms)/Car_depreciation
+1/Driven_kms
+exp(Owner)/Car_depreciation
+sqrt(Owner)/Car_depreciation
+Car_depreciation**2*Selling_type
