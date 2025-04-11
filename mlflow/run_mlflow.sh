@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Создание базы данных, если не существует
 export MLFLOW_TRACKING_URI=sqlite:///mlflow.db
