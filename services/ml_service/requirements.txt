@@ -8,3 +8,4 @@ autofeat==2.1.0
 mlxtend==0.23.4
 optuna==4.2.1
 xgboost==2.1.4
+prometheus_client
